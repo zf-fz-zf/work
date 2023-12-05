@@ -10,15 +10,16 @@ DISK_GB_REQUIRED=30
 
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
-#   "https://github.com/d8ahazard/sd_dreambooth_extension"
-#   "https://github.com/deforum-art/sd-webui-deforum"
-#   "https://github.com/adieyal/sd-dynamic-prompts"
-#   "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-#   "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     "https://github.com/Bing-su/adetailer"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
+    
+#   "https://github.com/d8ahazard/sd_dreambooth_extension"
+#   "https://github.com/deforum-art/sd-webui-deforum"
+#   "https://github.com/adieyal/sd-dynamic-prompts"
+#   "https://github.com/ototadana/sd-face-editor"  
+#   "https://github.com/hako-mikan/sd-webui-regional-prompter"
 #   "https://github.com/fkunn1326/openpose-editor"
 #    "https://github.com/Gourieff/sd-webui-reactor"
 )
@@ -30,15 +31,15 @@ CHECKPOINT_MODELS=(
 #   "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 #    "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v2.safetensors"
 
-    "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v5.safetensors"
-    "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v5-inpainting.safetensors"
+    "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v3.safetensors"
+    "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v3-inpainting.safetensors"
 )
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     
-    "https://civitai.com/api/download/models/105710"
-    "https://civitai.com/api/download/models/87153"
+    "https://civitai.com/api/download/models/105710"    #ratnik
+    "https://civitai.com/api/download/models/87153"    #add details
 )
 
 VAE_MODELS=(
@@ -71,8 +72,12 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
 
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/raw/main/control_v11p_sd15_openpose_fp16.safetensors"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/raw/main/control_v11f1e_sd15_tile_fp16.safetensors"
+    "https://civitai.com/api/download/models/67566"
+    "https://civitai.com/api/download/models/44736"
+    "https://civitai.com/api/download/models/44811"
+    "https://civitai.com/api/download/models/44716"
+    "https://civitai.com/api/download/models/44876"
+    
 
     
     
