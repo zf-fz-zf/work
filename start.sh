@@ -17,6 +17,8 @@ EXTENSIONS=(
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
 #   "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
+    "https://github.com/Bing-su/adetailer"
+    "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
 #   "https://github.com/fkunn1326/openpose-editor"
 #    "https://github.com/Gourieff/sd-webui-reactor"
 )
